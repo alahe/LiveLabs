@@ -189,7 +189,7 @@ JSON_TABLE("STUDENT_INFO", '$[*]' COLUMNS
 "age" number path '$.age',
 "Major" varchar2(16) path '$.Major',
 "major" varchar2(16) path '$.major',
-"lastName" varchar2(16) path '$.lastName')JT
+"lastName" varchar2(16) path '$.lastName') JT
 
 
 SELECT student_id, "lastName", "Major"  FROM  DG_AutoView ORDER BY 1 ;
